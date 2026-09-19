@@ -196,49 +196,6 @@ and run all cells.
 
 ---
 
-## 📁 Repository Structure
-
-```text
-Task-2-Transfer-Learning/
-│
-├── Task_2_Transfer_Learning_ResNet50_CIFAR10.ipynb
-├── README.md
-│
-└── task2_outputs/
-    ├── accuracy_loss_comparison.png
-    ├── accuracy_time_comparison.png
-    ├── test_accuracy_comparison.png
-    ├── test_loss_comparison.png
-    ├── training_loss_comparison.png
-    ├── final_accuracy_comparison.png
-    ├── training_time_comparison.png
-    ├── parameter_comparison.png
-    ├── overall_performance_dashboard.png
-    ├── sample_batch.png
-    └── results.json
-```
-
-> The `task2_outputs` folder contains the generated experiment results and visualizations when these files are exported from the notebook.
-
----
-
-## 📋 Assignment Requirements Covered
-
-| Requirement | Status |
-|---|---|
-| Pretrained VGG16/ResNet model | ✅ ResNet50 |
-| Freeze base layers | ✅ |
-| Fine-tune selected layers | ✅ `layer4` + classifier |
-| Retrain on custom dataset | ✅ CIFAR-10 |
-| Baseline CNN comparison | ✅ |
-| Accuracy comparison | ✅ |
-| Loss visualization | ✅ |
-| Training-time analysis | ✅ |
-| Experimental observations | ✅ |
-| Source code / Notebook | ✅ |
-| Results and screenshots | ✅ |
-
----
 
 ## 👤 Author
 
